@@ -1,14 +1,36 @@
-What is Node.js and how does it work?
-What are the advantages and disadvantages of using Node.js?
-What is the event loop and how does it affect performance?
-What are callbacks and how do you use them in Node.js?
-What are promises and how do they differ from callbacks?
-What are async/await functions and how do you use them in Node.js?
+1.What is Node.js and how does it work?   ans-: Node.js is an open-source, cross-platform JavaScript runtime environment that allows developers to run JavaScript code outside of a web browser.It is built on the V8 JavaScript engine, which is the same engine that powers the Google Chrome browser.Node.js enables server-side programming with JavaScript, allowing developers to use JavaScript to write server-side code.
+2.What are the advantages and disadvantages of using Node.js?
+3.What is the event loop and how does it affect performance?
+4.What are callbacks and how do you use them in Node.js?
+5.What are promises and how do they differ from callbacks?
+6.What are async/await functions and how do you use them in Node.js?
 What is middleware and how do you use it in Express.js?
 What is NPM and how do you use it to install packages?
 What is a module and how do you create and use them in Node.js?
 What is a stream and how do you use them in Node.js?
-What is an EventEmitter and how do you use it in Node.js?
+What is an EventEmitter and how do you use it in Node.js?  
+ans->
+javascript Copy code
+const EventEmitter = require('events');
+
+// Create an instance of EventEmitter
+const myEmitter = new EventEmitter();
+
+// Register a listener for the 'someEvent' event
+
+myEmitter.on('someEvent', (arg1, arg2) => {
+  console.log('Event occurred with arguments:', arg1, arg2);
+});
+
+app.get("/",(req,res)=>{
+ myEmitter.emit("someEvent")
+res.send("event called")
+})
+
+In Node.js, an EventEmitter is a core module that provides an implementation of the observer pattern.
+It allows objects to emit and listen for events
+
+
 What is the difference between blocking and non-blocking code?
 What is the difference between synchronous and asynchronous code?
 What is the difference between a process and a thread?
