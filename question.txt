@@ -1,0 +1,25 @@
+What is Node.js and how does it work?
+What are the advantages and disadvantages of using Node.js?
+What is the event loop and how does it affect performance?
+What are callbacks and how do you use them in Node.js?
+What are promises and how do they differ from callbacks?
+What are async/await functions and how do you use them in Node.js?
+What is middleware and how do you use it in Express.js?
+What is NPM and how do you use it to install packages?
+What is a module and how do you create and use them in Node.js?
+What is a stream and how do you use them in Node.js?
+What is an EventEmitter and how do you use it in Node.js?
+What is the difference between blocking and non-blocking code?
+What is the difference between synchronous and asynchronous code?
+What is the difference between a process and a thread?
+What is the difference between fork() and spawn() in Node.js?
+What is the difference between a TCP connection and a UDP connection?
+What is the difference between a GET request and a POST request?
+What is the difference between a REST API and a GraphQL API?
+What is caching and how do you use it in Node.js?
+What is authentication and how do you implement it in Node.js?
+What is authorization and how do you implement it in Node.js?
+What is logging and how do you do it in Node.js?
+What is error handling and how do you do it in Node.js?
+What is testing and how do you test Node.js applications?
+What is deployment and how do you deploy Node.js applications?
